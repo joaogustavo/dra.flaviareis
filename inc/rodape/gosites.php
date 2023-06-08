@@ -1,0 +1,2 @@
+  <div class="gosites hvr-rotate"><a href="http://www.gosites.com.br" target="_blank" title="Desenvolvido por GO!Sites">desenvolvido por<br><img src="<?=get_template_directory_uri()?>/img/gosites.png" alt="GO!Sites" class="img-responsive"></a></div>
+  <div class="clearfix"></div>

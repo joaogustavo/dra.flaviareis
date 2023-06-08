@@ -1,0 +1,31 @@
+.wp-pagenavi {
+	font-family: 'Lato', sans-serif;
+}
+.wp-pagenavi a {
+	text-decoration: none;
+}
+.wp-pagenavi .extend {
+	display: none;
+	visibility: hidden;
+}
+.wp-pagenavi .pages {
+	display: none;
+	border: dashed 1px #BFBFBF;
+	color: #b7c2ca;
+	font-weight: 500;
+}
+.wp-pagenavi a, .wp-pagenavi span {
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	color: #f19900;
+}
+.wp-pagenavi a:hover, .wp-pagenavi span.current {
+	background-color: #252980; 
+	border-color: transparent;
+	color: #ffffff;
+}
+.nextpostslink {	
+	border-color: #69ba2e;
+	color: #69ba2e;
+}

@@ -1,0 +1,48 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+/*
+------------------ FONT AWESOME --------------------------
+	font-family: 'FontAwesome';
+*/
+/*
+/****************************************************************************************/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/*
+--------------- Roboto Regular -----------------
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+*/
+/***************************************************************************/
+@import url("../webfonts/gotham/stylesheet.css");
+/*
+--------------- Gotham Light -----------------
+	font-family: 'gotham_light';
+*/
+/*
+--------------- Gotham Book -----------------
+	font-family: 'gotham_book';
+*/
+/*
+--------------- Gotham Bold -----------------
+	font-family: 'gotham_bold';
+*/
+/*
+--------------- Gotham Black -----------------
+	font-family: 'gotham_black';
+*/
+/***************************************************************************/
+@font-face {
+	font-family: 'bebasneue';
+	src: url('../webfonts/bebasneue/bebasneue-webfont.woff2') format('woff2'),  url('../webfonts/bebasneue/bebasneue-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+/*
+	font-family: 'bebasneue';
+*/
+/***************************************************************************/
+@import url('https://fonts.googleapis.com/css?family=Droid+Serif');
+/*
+--------------- Droid Serif -----------------
+	font-family: 'Droid Serif', serif;
+	font-weight: 400;
+*/

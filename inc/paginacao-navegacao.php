@@ -1,0 +1,1 @@
+<span class="conteudos text-center" id="wp-pagenavi"><?php wp_pagenavi(); ?></span> 

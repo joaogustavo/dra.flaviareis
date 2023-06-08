@@ -1,0 +1,218 @@
+/*
+------------------- MENU PRINCIPAL DESKTOP -------------------
+*/
+.navegacao { /* container geral */
+	border-bottom: solid 2px #ff5d1a;
+	display: inline-block;
+	font-family: 'bebasneue';
+	float: right;
+	font-size: 25px;
+	font-weight: 500;
+	letter-spacing: normal;
+	margin: 0 auto;
+	margin-top: 8px;
+	max-width: 807px;
+	padding: 0;
+	padding-left: 2px;
+	position: relative;
+	text-transform: uppercase;
+	text-shadow: 0.743px 0.669px 0.91px rgba(4, 4, 4, 0.1);
+	width: 100%;
+	z-index: 200 !important;
+}
+.navegacao ul { /* container centralizado */
+	display: block;
+	float: none;
+	list-style: none;
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	-webkit-margin-start: auto;
+	-webkit-margin-end: auto;
+	-webkit-padding-start: 0;
+	margin: 0 auto;
+	max-width: 1100px;
+	padding: 0;
+	position: relative;
+	width: 100%;
+	z-index: 2;
+}
+.navegacao ul li { /* item */
+	display: inline-block;
+	margin: 0 -2px;
+	padding: 0;
+	position: relative;
+	vertical-align: middle;
+}
+.navegacao ul li a { /* menu link */
+	color: #ff5d1a;
+	display: block;
+	margin: 0;
+	padding: 13.5px 8px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+}
+.navegacao ul .current-menu-item a,
+.navegacao ul li a:hover,  /* menu link hover */
+.navegacao ul li a:focus { /* menu link focus */
+	background-image: -moz-linear-gradient( 90deg, rgb(186,60,21) 39%, rgb(243,108,68) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(186,60,21) 39%, rgb(243,108,68) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(186,60,21) 39%, rgb(243,108,68) 100%);
+	color: #fff;
+	outline: none !important;
+}
+/*
+----------------- MENU AJUSTES DE MEDIA QUERIES ----------------
+*/
+@media screen and (max-width:1140px) {
+	.navegacao {
+		font-size: 22px;
+		max-width: 723px;
+	}
+	.navegacao ul li a { /* menu link */
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+}
+@media screen and (max-width:1060px) {
+	.navegacao {
+		font-size: 20px;
+		max-width: 666px;
+	}
+	.navegacao ul li a { /* menu link */
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+}
+@media screen and (max-width:992px) {
+	.navegacao {
+		font-size: 25px;
+		margin-top: 0;
+		max-width: 992px;
+		text-align: center;
+	}
+	.navegacao ul li a { /* menu link */
+		padding-left: 12px;
+		padding-right: 12px;
+	}
+}
+@media screen and (max-width:920px) {
+	.navegacao {
+		font-size: 25px;
+	}
+	.navegacao ul li a { /* menu link */
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+}
+@media screen and (max-width:860px) {
+	.navegacao {
+		font-size: 22px;
+		margin-top: 5px;
+	}
+	.navegacao ul li a { /* menu link */
+		padding-left: 8px;
+		padding-right: 8px;
+	}
+}
+/*
+------------------------- MENU MOBILE --------------------------
+*/
+@media screen and (max-width: 767px) and (min-width: 176px) {
+	.menu-busca {
+		display: inline-block;
+		float: right;
+		margin-right: 50px;
+		margin-top: 10px;
+	}
+	.navegacao {
+		display: none;
+	}
+	.modaal-content-container .lista-menu a {
+		color: #b11317;
+		font-size: 2.3rem;
+		font-weight: 700;
+	}
+	/* menu movel */
+	.lista-menu {
+		list-style: none;
+		margin-bottom: 0px;
+		margin-top: 30px;
+		padding-left: 0px;
+		text-align: center;
+	}
+	.lista-menu li a {
+		color: #00923f;
+		display: block;
+		letter-spacing: -.02rem;
+		line-height: 4rem;
+		margin-top: .2rem;
+		padding: .01rem 1rem;
+		vertical-align: middle;
+	}
+	.lista-menu li a:hover {
+		color: #ffcd22;
+		text-decoration: none;
+	}
+	/* botao abrir menu*/
+	.ic-menu {
+		background: #b11317;
+		border-radius: 10%;
+		color: #ffba00;
+		cursor: pointer;
+		height: 50px;
+		opacity: 1;
+		position: fixed;
+		right: 10px;
+		top: 10px;
+		transition: all 0.2s ease-in-out;
+		width: 50px;
+	}
+	.ic-menu:focus, .menu-abre:hover {
+		color: #ffdd00;
+		opacity: .2;
+		outline: none;
+	}
+	.ic-menu:focus:before,
+	.ic-menu:focus:after,
+	.ic-menu:hover:before,
+	.ic-menu:hover:after {
+		background: transparent;
+	}
+	.modaal-fullscreen .modaal-close {
+		background: #b11317;
+	}
+	.ic-menu span {
+		border: 0 !important;
+		clip: rect(1px 1px 1px 1px);
+		/* IE6, IE7 */
+		clip: rect(1px, 1px, 1px, 1px);
+		height: 1px !important;
+		overflow: hidden;
+		padding: 0 !important;
+		position: absolute !important;
+		width: 1px !important;
+	}
+	.ic-menu:before {
+		content: '\f0c9';
+		display: block;
+		font-family: 'FontAwesome';
+		font-size: 3rem;
+		height: 22px;
+		left: 12px;
+		position: absolute;
+		top: 9px;
+		width: 4px;
+	}
+	.ic-menu:after {
+		content:'MENU';
+		font-family: 'Roboto', sans-serif;
+		font-size: .9rem;
+		font-weight: 500;
+		height: 8px;
+		left: 12px;
+		position: absolute;
+		top: 7px;
+		width: 4px;
+	}
+}

@@ -1,0 +1,207 @@
+/*
+---------------- RESET TEMPLATE ----------------
+*/
+#titulos,
+.conteudos-nav {
+	display: none;
+	visibility: hidden;
+}
+/*
+-------------- NOTICIAS DESTAQUES --------------
+*/
+.noticias-destaque {
+	margin: 0 auto;
+	margin-top: 25px;
+	max-width: 1080px;
+	padding: 0 15px;
+	width: 100%;
+}
+.not-container-destaque {
+	display: inline-block;
+	float: left;
+	height: auto;
+	margin: 0;
+	max-width: 666px;
+	min-height: 391px;
+	padding: 0;
+	width: 100%;
+}
+.noticias-destaque div:last-child, .noticias-destaque div:nth-child(3) {
+	display: inline-block;
+	float: right;
+	height: auto;
+	max-width: 382px;
+	min-height: 194px;
+
+}
+.noticias-destaque div:last-child {
+	margin-top: 3px;
+}
+.not-container-destaque a:hover,
+.not-container-destaque a:focus {
+	opacity: .7;
+	text-decoration: none;
+}
+.not-img-destaque {
+	background-position: left center !important;
+	background-size: cover !important;
+	display: block;
+	height: 391px;
+	max-width: 727px;
+	position: relative;
+	width: 100% !important;
+}
+.noticias-destaque div:last-child .not-img-destaque,.noticias-destaque div:nth-child(3) .not-img-destaque {
+	background-position: left center !important;
+	background-size: cover !important;
+	display: block;
+	height: 194px;
+	max-width: 382px;
+	position: relative;
+	width: 100% !important;
+}
+.not-tit-destaque {
+	background: rgba(0,0,0,0.55);
+	bottom: 5%;
+	color: #ffffff;
+	display: inline-block;
+	font-size: 2.2rem;
+	font-weight: 300;
+	line-height: 2.3rem;
+	margin: 0;
+	padding: 2px 12px;
+	position: absolute;
+}
+.cat-nome-destaque {
+	background: #3c419a;
+	color: #ffffff;
+	font-size: 2rem;
+	font-weight: 300;
+	left: 0;
+	padding: 0px 12px;
+	position: absolute;
+	top: -23px;
+}
+/*
+------------------- NOTICIAS -------------------
+*/
+.noticias {
+	margin: 25px auto;
+	padding: 0 5px;
+}
+.not-container {
+	height: auto;
+	min-height: 210px;
+}
+.not-container a:hover,
+.not-container a:focus {
+	opacity: .7;
+	text-decoration: none;
+}
+.not-img {
+	background-position: left center !important;
+	background-size: cover !important;
+	display: block;
+	height: 116px;
+	max-width: 257px !important;
+	position: relative;
+	width: 100% !important;
+}
+.cat-nome {
+	background: #3c419a;
+	bottom: 0px;
+	color: #ffffff;
+	font-size: 1.4rem;
+	font-weight: 300;
+	left: 0;
+	padding: 0px 12px;
+	position: absolute;
+}
+.not-tit {
+	color: #3d4196;
+	font-size: 1.6rem;
+	font-weight: 300;
+	line-height: 1.8rem;
+	margin: 3px 0;
+	max-width: 300px;
+	padding: 0;
+}
+.botao {
+	background: #3c419a;
+	border: solid 1px transparent;
+	border-radius: 0;
+	color: #ffffff;
+	font-size: 1.4rem;
+	font-weight: 300;
+	margin-bottom: 25px;
+}
+.botao:hover,
+.botao:focus {
+	background: transparent;
+	border: solid 1px #3c419a;
+	color: #3c419a;
+}
+/*
+----------------------- RESPONSIVIDADES -----------------------
+*/
+@media screen and (max-width: 1080px) {
+.not-container-destaque {
+	max-width: 1080px;	
+}
+.noticias-destaque div:last-child, .noticias-destaque div:nth-child(3) {
+	float: left;
+	display: inline-block;
+	margin-top: 3px;
+	max-width: 1080px;
+	width: 49.8%;
+}
+.not-img-destaque {
+	height: 391px;
+	max-width: 1080px;
+}
+.noticias-destaque div:last-child .not-img-destaque,.noticias-destaque div:nth-child(3) .not-img-destaque {
+	max-width: 1080px;
+	width: 100% !important;
+}
+.noticias-destaque div:last-child {
+	margin-left: 3px;
+}
+}
+@media screen and (max-width: 767px) {
+.noticias-destaque {
+	margin-top: 85px;
+}
+.not-container-destaque {
+	min-height: 250px;
+}
+.not-img-destaque {
+	height: 250px;
+}
+.noticias-destaque div:last-child, .noticias-destaque div:nth-child(3) {
+	margin: 2px 1px;
+	width: 49.7%;
+}
+}
+@media screen and (max-width: 692px) {
+.noticias-destaque div:last-child, .noticias-destaque div:nth-child(3) {
+	margin: 2px 1px;
+	width: 49.6%;
+}
+}
+@media screen and (max-width: 599px) {
+.noticias-destaque div:last-child, .noticias-destaque div:nth-child(3) {
+	display: none;
+}
+}
+@media screen and (max-width: 499px) {
+.not-container {
+	float: none;
+	margin: 0 auto;
+	max-width: 320px;
+	min-width: 290px;
+	width: 100%;
+}
+.not-img {
+	max-width: 490px !important;
+}
+}

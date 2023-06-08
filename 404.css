@@ -1,0 +1,31 @@
+main,.conteudos {
+	margin-bottom: 5px;
+	overflow: auto;
+}
+.error-404 {
+	display: block;
+	margin: 15px auto; 
+	max-width: 600px;
+	padding: 6px;
+	position: relative;
+	text-align: center;
+}
+h1.page-title {
+	color: #f0a117;
+}
+.page-content {
+	background: url(img/404.svg) no-repeat left top;
+	background-size: contain;
+	display: block;
+	height: 200px;
+	margin: 25px auto;
+	width: 200px;
+}
+.conteudos-nav {
+	padding: 5px 0;
+}
+@media screen and (max-width:767px) {
+.error-404 {
+	margin-top: 75px;
+}	
+}

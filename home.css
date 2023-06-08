@@ -1,0 +1,547 @@
+/* 
+--------------------- RESET DA TEMPLATE -----------------------
+*/
+.conteudos-nav {
+	display: none;
+	visibility: hidden;
+}
+/* 
+--------------------- VIDEO -----------------------
+*/
+.video-container {
+	background: url(img/home-video.jpg) no-repeat center top;
+	background-size: cover;
+	left: 0;
+	overflow: hidden;
+	padding: 250px 0;
+	position: relative;
+	top: 0;
+	width: 100%;
+	z-index: 0;
+}
+.video-container .poster img {
+	height: 100%;
+	position: absolute;
+	top: 0;
+	width: 160%;
+	z-index: 1;
+}
+.video-container .filter {
+	background: rgba(0, 0, 0, 0.4);
+	position: absolute;
+	width: 100%;
+	z-index: 100;
+}
+.video-container video {
+	position: absolute;
+	top: 0;
+	z-index: 3;
+}
+.video-container video.fillWidth {
+	width: 100%;
+}
+.video-container .poster {
+	background: rgba(3, 4, 16, 0.6);
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+	color: #fff;
+	display: block;
+	float: none;
+	font-weight: 300;
+	margin: 0 auto;
+	max-width: 500px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+	z-index: 2;
+}
+.video-container .poster i {
+	font-size: 45px;
+}
+.video-container:hover,.video-container:focus {
+	margin-bottom: 220px;
+	transform: translateZ(0);
+	transition-duration: .9s;
+	transition-property: transform;
+	transition-timing-function: ease-out;
+}
+/* 
+--------------------- SERVICOS CHAMADA -----------------------
+*/
+.servicos-chamada {
+	margin: 0 auto;
+	margin-bottom: -160px;
+	max-width: 1170px;
+	padding: 0 15px;
+	position: relative;
+}
+.servico-backup {
+	background: url(img/home-servico-ch-1.jpg) no-repeat center center;
+	background-size: contain;
+	color: #fcf067;
+	display: inline-block;
+	font-family: 'gotham_bold';
+	font-size: 23px;
+	max-width: 676px;
+	padding: 409px 15px 30px 33px;
+	position: relative;
+	overflow: hidden;
+	text-transform: uppercase;
+	top: -183px;
+	width: 100%;
+	z-index: 1;
+}
+.servico-backup span {
+	color: #fff;
+	display: block;
+	font-family: 'bebasneue';
+	font-size: 61px;
+	line-height: 38px;
+}
+.servico-backup:hover,.servico-backup:focus {
+	color: #fcf067;	
+	text-decoration: none;
+}
+.servico-backup:before{
+	background: rgba(0,0,0,0.4);
+	content: '';
+	display: none;
+	height: 97%;
+	left: 15px;
+	position: absolute;
+	top: 7px;
+	width: 95.7%;
+	z-index: -1;
+}
+.servico-backup:hover.servico-backup:before,.servico-backup:focus.servico-backup:before {
+	display: block;
+}
+.servico-consultoria {
+	background: url(img/home-servico-ch-2.jpg) no-repeat center center;
+	background-size: contain;
+	color: #fcf067;
+	display: inline-block;
+	font-family: 'gotham_bold';
+	font-size: 21px;
+	margin-left: -17px;
+	max-width: 399px;
+	padding: 480px 15px 37px 45px;
+	position: relative;
+	overflow: hidden;
+	text-transform: uppercase;
+	top: -123px;
+	width: 100%;
+	z-index: 1;
+}
+.servico-consultoria span {
+	color: #fff;
+	display: block;
+	font-family: 'bebasneue';
+	font-size: 61px;
+	line-height: 40px;
+}
+.servico-consultoria:hover,.servico-consultoria:focus {
+	color: #fcf067;
+	text-decoration: none;
+}
+.servico-consultoria:before{
+	background: rgba(255,255,255,0.4);
+	content: '';
+	display: none;
+	height: 97.8%;
+	left: 12px;
+	position: absolute;
+	top: 7px;
+	width: 94%;
+	z-index: -1;
+}
+.servico-consultoria:hover.servico-consultoria:before,.servico-consultoria:focus.servico-consultoria:before {
+	display: block;
+}
+/* 
+--------------------- SERVICOS -----------------------
+*/
+.servicos-container-geral {
+	background: url(img/home-servicos-bg.jpg) no-repeat center top;
+	overflow: hidden;
+	padding-bottom: 110px;
+	padding-top: 125px;
+}
+.servicos-container {
+	margin: 0 auto;
+	max-width: 1170px;
+	padding: 0 auto;
+}
+.servicos-titulo {
+	font-family: 'bebasneue';
+	font-size: 61px;
+	line-height: 61px;
+	text-align: right;
+}
+.servico {
+	padding: 0 6px;
+	padding-left: 0;
+}
+.servico a {
+	background: #fff;
+	box-shadow: 0px 1px 21px 0px rgba(0, 0, 0, 0.1);
+	color: #5c5c61;
+	display: block;
+	font-family: 'bebasneue';
+	font-size: 22px;
+	font-weight: normal;
+	line-height: 25px;
+	margin: 3px 0;
+	min-height: 55px!important;
+	overflow: hidden;
+	padding: 20px;
+	position: relative;
+	z-index: 1;
+}
+.servico .hvr-reveal:before {
+	border-color: #ffac00;
+}
+.servico-icone {	
+}
+.servico a h3 {
+	margin: 0;
+	padding: 0;
+	padding-left: 5px;
+}
+.servicos-link {
+	margin: 3px 0;
+	padding: 20px;
+	text-align: center;	
+}
+.servicos-link img {
+	margin-top: 12px;
+}
+/* 
+----------------- DEPOIMENTOS --------------------
+*/
+.depoimentos-container {
+	background: url(img/home-depoimentos-bg.png) no-repeat center bottom;
+	padding-top: 20px;
+	position: relative;
+	text-align: center;
+}
+.depoimentos-titulo {
+	color: #ff9700;
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+.depoimentos-titulo span {
+	color: #ff5d53;
+}
+#depoimentos {
+	margin: 0 auto;
+	max-width: 902px;
+	padding: 0 15px;
+	position: relative;
+}
+.depoimento {
+	background: #fff;
+	box-shadow: 0px 2px 18px 0px rgba(0, 0, 0, 0.17);
+	margin: 25px;
+	overflow: hidden;
+	padding: 35px 25px;
+}
+.depoimento-img {
+	text-align: center;
+}
+.depoimento-img img {
+	display: inline-block;
+	margin-top: 15px;
+}
+.depoimento-img i {
+	color:#ff8610;
+	font-size: 20px;
+	margin: 0 2px;
+}
+.depoimento-txt {
+	color:#000;
+	font-family: 'Droid Serif', serif;
+	font-size: 18px;
+	padding-top: 55px;
+	position: relative;
+}
+.depoimento-txt p:before {
+	content: '"';
+}
+.depoimento-txt p:after {
+	content: '"';
+}
+.depoimento-nome, .depoimento-deonde {
+	margin: 0;
+	padding: none;
+}
+.depoimento-nome {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	padding: 15px 0;
+	padding-bottom: 5px;
+}
+.depoimento-deonde {
+	color: #999999;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+}
+#depoimentos span.slick-arrow {
+	background: url(img/nav-gr-esq.png) no-repeat left top;
+	background-size: contain;
+	color: #fff;
+	display: block;
+	height: 64px;
+	position: absolute;
+	left: -67px;
+	text-align: center;
+	top: 125px;
+	width: 57px;
+	z-index: 5;
+}
+#depoimentos span.slick-arrow:hover,#depoimentos span.slick-arrow:focus {
+	cursor: pointer;
+	opacity: .6;
+}
+#depoimentos span.slick-arrow:first-child {
+	background: url(img/nav-gr-dir.png) no-repeat left top;
+	background-size: contain;
+	left: auto;
+	right: -67px;
+}
+.depoimentos-bg-esq {
+	background: url(img/home-depoimentos-bg-esq.png) no-repeat left center;
+	background-size: 100% auto;
+	height: 100%;
+	left: 0;
+	max-width: 458px;
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+.depoimentos-bg-dir {
+	background: url(img/home-depoimentos-bg-dir.png) no-repeat left 16%;
+	background-size: 100% auto;	
+	height: 100%;	
+	max-width: 450px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 100%;
+}
+#depoimentos .slick-dots {
+	background: #fff;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	-ms-border-radius: 18px;
+	-o-border-radius: 18px;
+	border-radius: 18px;
+	box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.17);
+	display: inline-block;
+	list-style: none;	
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	-webkit-margin-start: auto;
+	-webkit-margin-end: auto;
+	-webkit-padding-start: 0;
+	max-height: 36px;	
+	padding: 8px 15px;
+	position: relative;
+	top: -15px;
+}
+#depoimentos .slick-dots li {
+	display: inline-block;
+	margin: 0 8px;
+	padding: 8px 0;
+}
+#depoimentos .slick-dots li button {
+	background: #cccccc;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	border:none;
+	height: 6px;
+	margin: 0;
+	padding: 0px;
+	text-indent: -9999px;
+	width: 6px;
+}
+#depoimentos .slick-dots li.slick-active button {
+	background: #fc634d;
+	height: 10px;
+	position: relative;
+	top: -2px;
+	width: 10px;
+}
+/*
+----------------------- CSS DE MEDIA QUERIES -----------------------
+*/
+@media screen and (max-width: 1970px) {
+	.depoimentos-bg-esq {
+		width: 20%;
+	}
+	.depoimentos-bg-dir {
+		width: 20%;
+	}
+}
+@media screen and (max-width:1130px){
+	.servicos-chamada {
+		margin-bottom: -80px;
+		text-align: center;
+	}
+	.servico-backup {		
+		background-size: cover;
+		max-width: 735px;
+		padding: 8.55% 15px 30px 3%;
+		text-align: left;
+		top: 0;
+		width: 48%
+	}
+	.servico-consultoria {
+		background-position: center 62%;
+		background-size: cover;
+		margin-left: 0px;
+		max-width: 735px;
+		padding: 7.6% 15px 37px 3%;
+		text-align: left;
+		top: 0;
+		width: 48%;
+	}
+}
+@media screen and (max-width:1040px){
+	.video-container {
+		padding-bottom: calc(200px - 1vw);
+		padding-top: calc(200px - 1vw);
+	}
+}
+@media screen and (max-width:1100px) and (min-width:768px){
+	.servicos-cabecalho {
+		margin-bottom: 20px;		
+		width: 100%;
+	}
+	.servicos-titulo {
+		text-align: left;
+	}
+	.servicos-titulo br{
+		display: none;
+	}
+	.servicos {
+		width: 100%;
+	}
+}
+@media screen and (max-width:840px){
+	.video-container {
+		padding-bottom: calc(180px - 1vw);
+		padding-top: calc(180px - 1vw);
+	}
+}
+/*
+----------------------- CSS INFERIOR A 767px -----------------------
+*/
+
+@media screen and (max-width:767px){
+	.topo {
+		height: 80px;
+	}
+	.it-video {
+		display: none;
+		visibility: hidden;
+	}
+	.corpo {
+		padding-top: 0!important;
+	}
+	#banners {
+		display: none;
+		visibility: hidden;
+	}
+	.servicos-chamada {
+		margin-bottom: -60px;
+		padding-top: 72px;
+		text-align: center;
+	}
+	.servico-backup {
+		max-width: 340px;
+		padding: 22.55% 15px 30px 3%;
+		text-align: left;
+		top: 0;
+		width: 48%
+	}
+	.servico-consultoria {
+		background-size: cover;
+		margin-left: 0px;
+		max-width: 386px;
+		padding: 21.3% 15px 37px 3%;
+		text-align: left;
+		top: 0;
+		width: 48%;
+	}
+	.servicos-container-geral {
+		padding-bottom: 20px;
+		padding-top: 82px;
+	}
+	.servicos-titulo {
+		font-size: 40px;
+		line-height: 35px;
+		text-align: center;
+	}
+	.servicos-titulo br {
+		display: none;
+		visibility: hidden;
+	}
+}
+@media screen and (max-width:730px){
+	.servico,.servicos-link {
+		float: none;
+		margin: 0 auto;
+		max-width: 450px;
+		width: 100%;
+	}
+}
+@media screen and (max-width:735px){
+	.servico-backup {
+		/*background-position: center bottom;*/
+		background-size: cover;
+		max-width: 735px;
+		padding: 8.55% 15px 30px 3%;
+		text-align: left;
+		top: 0;
+		width: 45%
+	}
+	.servico-consultoria {
+		background-size: cover;
+		margin-left: 0px;
+		max-width: 735px;
+		padding: 7.6% 15px 37px 3%;
+		text-align: left;
+		top: 0;
+		width: 45%;
+	}
+}
+@media screen and (max-width:575px){
+	.servico-backup {		
+		background-size: cover;
+		max-width: 735px;
+		padding: 8.55% 15px 30px 3%;
+		text-align: left;
+		top: 0;
+		width: 100%
+	}
+	.servico-consultoria {
+		background-position: center 62%;
+		background-size: cover;
+		margin-left: 0px;
+		max-width: 735px;
+		padding: 7.6% 15px 37px 3%;
+		text-align: left;
+		top: 0;
+		width: 100%;
+	}
+}

@@ -1,0 +1,340 @@
+/*
+------------------- RESET DA MODELO -------------------
+*/
+#titulos,
+.conteudos-nav {
+	display: none !important;
+	visibility: hidden !important;
+}
+.corpo {
+	background: none #fefefe;
+	max-width: 2000px;
+}
+.conteudos {
+	margin: 0;
+	max-width: 2000px;
+	padding: 0;
+}
+/*
+--------------- BANNERS -------------------
+*/
+
+/*
+------------- INSTITUCIONAL ---------------
+*/
+.institucional-container {
+	background: url(../img/home-quemsomos.jpg) no-repeat center top;
+	padding-bottom: 11px;
+}
+.institucional {
+	margin: 0 auto;
+	max-width: 1170px;
+	overflow: hidden;
+	padding: 40px 15px;
+	position: relative;
+	width: 100%;
+}
+.institucional:after {
+	background: url(../img/icone-seta-down.png) no-repeat center top;
+	background-size: contain;
+	bottom: -1px;
+	content: '';
+	height: 61px;
+	position: absolute;
+	right: 0;
+	width: 60px;
+}
+.institucional > div {
+	max-width: 474px;
+}
+.institucional-titulo {
+	color: #ffffff;
+	font-family: 'gotham_narrow_bold';
+	font-size: 3rem;
+	font-weight: normal;
+	margin: 0;
+	margin-bottom: 25px;
+	padding: 0;
+	text-align: center;
+	text-shadow: 0px 1px 0px rgba(43, 95, 128, 0.55);
+}
+.institucional-txt {
+	color: #ffffff;
+	font-size: 1.5rem;
+	text-align: justify;
+}
+.institucional-link {
+	background: #ffffff;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.06);
+	-ms-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.06);
+	-o-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.06);
+	-webkit-box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.06);
+	box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.06);
+	color: #00bfe8;
+	display: block;
+	font-size: 2rem;
+	margin: 30px auto;
+	margin-top: 65px;
+	max-width: 160px;
+	padding: 20px 5px;
+	text-align: center;
+}
+.institucional-link:hover,
+.institucional-link:focus {
+	background: #00bfe8;
+	color: #fff;
+	text-decoration: none;
+}
+/*
+--------------- NOTICIAS ------------------
+*/
+.noticias-container {
+	background: url(../img/home-noticias-bg.png) no-repeat center top;
+}
+.noticias {
+	margin: 0 auto;
+	max-width: 1170px;
+	overflow: hidden;
+	padding: 40px 15px;
+	width: 100%;
+}
+.noticias-titulo {
+	border: solid 3px #ffd500;
+	color: #0075bf;
+	font-family: 'gotham_narrow_bold';
+	font-size: 3rem;
+	margin-bottom: 25px;
+	max-width: 250px;
+	padding: 5px;
+	text-align: center;
+	text-transform: lowercase;
+}
+.noticia {
+	-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	-moz-box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.25);
+	-ms-box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.25);
+	-o-box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.25);
+	box-shadow: 0px 3px 2px 0px rgba(0, 0, 0, 0.25);
+	margin: 35px 15px;
+	max-width: 334px;
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+.noticia img {
+	-border-radius: 6px 6px 0 0;
+	-ms-border-radius: 6px 6px 0 0;
+	-o-border-radius: 6px 6px 0 0;
+	-webkit-border-radius: 6px 6px 0 0;
+	border-radius: 6px 6px 0 0;
+}
+.noticia-data {
+	background: #0075bf;
+	color: #ffffff;
+	font-size: 1.3rem;
+	font-weight: 700;
+	height: 20px;
+	left: 6px;
+	line-height: 2rem;
+	padding: 0 14px;
+	position: absolute;
+	text-align: center;
+	top: -20px;
+}
+.noticias .noticia:nth-child(3) time {
+	background: #d8a41d;
+}
+.noticias .noticia:last-child time {
+	background: #457576;
+}
+.noticia-descricao {
+	color: #878787;
+	font-size: 1.3rem;
+	line-height: 1.8rem;
+	padding: 6px 12px;
+}
+.noticias-link {
+	border-bottom: solid 2px #e4f0f8;
+	font-style: normal;
+	text-align: center;
+}
+.noticias-link a {
+	background: url(../img/home-noticias-icone-mais.png) no-repeat center top;
+	display: inline-block;
+	height: 46px;
+	margin-bottom: -32px;
+	width: 119px;
+}
+/*
+--------------- PROJETO -------------------
+*/
+.projeto {
+	background: url(../img/home-projeto-bg.png) no-repeat left center;
+	margin: 0 auto;
+	max-width: 1170px;
+	overflow: hidden;
+	padding: 0px 15px;
+	position: relative;
+	width: 100%;
+}
+.projeto-txt {
+	background: url(../img/home-projeto-bg2.png) no-repeat right top;
+	color: #0075bf;
+	font-family: 'gotham_narrow_bold';
+	font-size: 3rem;
+	padding-bottom: 65px;
+	padding-left: 160px;
+	padding-top: 75px;
+	text-transform: lowercase;
+}
+.projeto-txt strong {
+	color: #deba1a;
+	display: block;
+	font-family: 'gotham_narrow_ultra';
+	font-size: 5rem;
+}
+.projeto-txt a:hover,
+.projeto-txt a:focus {
+	opacity: .6;
+	text-decoration: none;
+}
+/*
+--------------- RESTRITO ------------------
+*/
+.restrito-container {
+	background: #0075bf;
+	position: relative;
+}
+.restrito-container:before {
+	content: '';
+	height: 0;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 0;
+}
+.restrito {
+	font-family: 'gotham_narrow_bold';
+	font-size: 2.2rem;
+	list-style: none;
+	-webkit-margin-before: 0px;
+	-webkit-margin-after: 0px;
+	-webkit-margin-start: auto;
+	-webkit-margin-end: auto;
+	-webkit-padding-start: 0;
+	margin: 0 auto;
+	max-width: 1170px;
+	padding: 0px 15px;
+	position: relative;
+	text-align: center;
+	text-transform: lowercase;
+	width: 100%;	
+}
+.restrito:before {
+	color: #0075bf;
+	content: 'acesso restrito';
+	font-family: 'gotham_narrow_bold';
+	font-size: 3rem;
+	left: 20px;
+	position: absolute;
+	top: -30px;
+}
+.restrito li a {
+	color: #ffffff;
+	display: block;
+	height: 300px;
+	padding: 175px 20px;
+}
+.restrito li:nth-child(odd) {
+	background-color: #026aac;
+}
+.restrito-agenda {
+	background: url(../img/icone-agenda.png) no-repeat center 80px;
+}
+.restrito-horario {
+	background: url(../img/icone-horarios.png) no-repeat center 80px;
+}
+.restrito-calendario {
+	background: url(../img/icone-calendario.png) no-repeat center 80px;
+}
+.restrito-fotos {
+	background: url(../img/icone-fotos.png) no-repeat center 80px;
+}
+.restrito-conteudos {
+	background: url(../img/icone-conteudos.png) no-repeat center 80px;
+}
+.restrito-aulas {
+	background: url(../img/icone-aulas.png) no-repeat center 80px;
+}
+
+/*
+------------- RESPONSIVIDADE ---------------
+*/
+@media screen and (max-width:1180px){
+	.noticia {
+		max-width: 320px;
+		min-width: 220px;
+		width: 29.3333%;
+	}
+}
+@media screen and (max-width:1150px){
+	.projeto {
+		background: none;
+	}
+	.projeto div {
+		float: none !important;
+		margin: 0 auto;
+	}
+	.projeto-txt {
+		max-width: 400px;
+		padding-left: 0;
+	}
+}
+@media screen and (max-width:1130px){
+	.institucional-container {
+		background-position: right top;
+	}
+}
+@media screen and (max-width:960px){
+	.institucional .pull-right {
+		float: none !important;
+		margin: 0 auto;
+		max-width: 800px;
+		width: 100%;
+	}
+	.institucional-link {
+		margin-top: 10px;
+	}
+}
+@media screen and (max-width:825px){
+	.noticia {
+		width: 48%;
+	}
+}
+@media screen and (max-width:767px){
+	.noticia {
+		float: none;
+		margin: 65px auto;
+		width: 100%;
+	}
+}
+@media screen and (max-width:500px){
+	.noticias-titulo {
+		background: #ffffff;
+	}
+}
+@media screen and (max-width:420px){
+	.institucional-container {
+		background-size: cover;
+	}
+}
